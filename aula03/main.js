@@ -59,3 +59,5 @@ for (let ind in meuArray){
 for(let fruta of meuArray){
     console.log(fruta);
 }
+
+// teste
