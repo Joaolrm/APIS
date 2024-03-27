@@ -39,4 +39,19 @@ function main(){
     console.log(listar());
 }
 
+function buscarPorId(id) {
+    for(let produto of listaProdutos){
+        if(produto.id === id){
+            return produto;
+        }
+    }
+    // for(let i=0; i<listaProdutos.length; i++){
+    //     if(listaProdutos[i].id === id){
+    //         return listaProdutos[i];
+    //     }
+    // }
+}
+
 main();
+console.log(buscarPorId(5));
+console.log(buscarPorId(2));
