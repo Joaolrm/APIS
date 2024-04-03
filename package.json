@@ -1,0 +1,28 @@
+{
+  "name": "somador",
+  "version": "1.0.0",
+  "description": "Somador para fazer testes unitarios",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest",
+    "meu_comando": "echo \" Meu Comando \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaolrm/APIS.git"
+  },
+  "keywords": [
+    "somador",
+    "teste unitário"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joaolrm/APIS/issues"
+  },
+  "homepage": "https://github.com/Joaolrm/APIS#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
